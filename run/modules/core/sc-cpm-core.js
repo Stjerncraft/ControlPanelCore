@@ -1,0 +1,1 @@
+require([],function(){}),define("modulemanager",function(){}),require.config({paths:{jquery:["http://code.jquery.com/jquery-1.12.0.min","lib/jquery-1.12.1.min"]}}),require(["jquery","modulemanager"],function(e){e(document).ready(function(){e("#container div").text("Test")})}),define("core",function(){});
